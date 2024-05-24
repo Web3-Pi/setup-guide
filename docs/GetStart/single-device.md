@@ -66,7 +66,7 @@ Raspberry Pi 5 + 2TB drive can use a significant amount of power so a sufficient
 
 Once you have all the hardware collected, you will need to unbox the Raspberry Pi device and connect it according to the specifications below:
 
-![Image title](/img/img-rpi5-connection-diagram-1.png)
+![Image title](../img/img-rpi5-connection-diagram-1.png)
 
 
 ## Photos
@@ -78,7 +78,7 @@ Below, you can see photos of an example setup:
 
 
 ### Sample configuration with NVMe drive
-![Sample configuration with NVMe drive](/img/img-example-setup-NVMe.jpg)
+![Sample configuration with NVMe drive](../img/img-example-setup-NVMe.jpg)
 
 
 ## OS Images
@@ -122,7 +122,7 @@ Follow the instructions below to write images on a microSD card.
 
 An example screenshot with settings for the geth node:
 
-![Sample Raspbberyy Pi Imager configuration](/img/img-raspberry-imager-example-eop-1.png)
+![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-eop-1.png)
 
 _If some steps remain unclear, you can visit the [Raspberry Pi "getting started" page](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information on Image settings and usage._
 
@@ -229,18 +229,18 @@ Go to “Dashboards” menu and then to "Ethereum Nodes Monitor" panel.
 === "Node just started"
 
     Grafana dashboard at node just started
-    ![Ethereum Nodes Monitor](/img/GrafanaPanelAtStart.png)
+    ![Ethereum Nodes Monitor](../img/GrafanaPanelAtStart.png)
     
 
 === "During syncing node"
 
     Grafana dashboard during syncing node
-    ![Ethereum Nodes Monitor](/img/GrafanaPanelSyncing.png)
+    ![Ethereum Nodes Monitor](../img/GrafanaPanelSyncing.png)
 
 === "Node is synced"
 
     Grafana dashboard at node synced state
-    ![Ethereum Nodes Monitor](/img/GrafanaPanelSynced.png)
+    ![Ethereum Nodes Monitor](../img/GrafanaPanelSynced.png)
 
 
 

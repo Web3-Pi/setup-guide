@@ -78,7 +78,7 @@ Flashing a microSD card takes time, but it can be reduced by using a fast device
 
 Once you have all the hardware collected, you will need to unbox the Raspberry Pi device and connect it according to the specifications below:
 
-![Image title](/img/img-rpi4-connection-diagram-1.png)
+![Image title](../img/img-rpi4-connection-diagram-1.png)
 
 
 ⚠️ **For the mDNS mechanism to work, it is crucial that all devices are connected within the same local network.** ⚠️
@@ -90,7 +90,7 @@ _Optimally using one network switch._
 
 Below, you can see photos of an example setup:
 
-![Sample configuration with USB drive](/img/img-example-setup-1.jpg)
+![Sample configuration with USB drive](../img/img-example-setup-1.jpg)
 
 ## OS Images
 
@@ -138,7 +138,7 @@ Follow the instructions below to write images to both devices.
     ```
 
 An example screenshot with settings for the geth node:
-![Sample Raspbberyy Pi Imager configuration](/img/img-raspberry-imager-example-exec.png)
+![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-exec.png)
 
 
 ### 2. Consensus client
@@ -166,7 +166,7 @@ An example screenshot with settings for the geth node:
     
     ```
 
-![Sample Raspbberyy Pi Imager configuration](/img/img-raspberry-imager-example-consensus.png)
+![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-consensus.png)
 
 _If some steps remain unclear, you can visit the [Raspberry Pi "getting started" page](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information on Imager settings and usage._
 
