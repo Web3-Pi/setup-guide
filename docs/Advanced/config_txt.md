@@ -48,11 +48,11 @@ gpu_mem=64
 
 ### Eth On Rpi extension
 
-Ethereum On Raspberry Pi extends this file by adding new section:
+Web 3 Pi extends this file by adding new section:
 
 #### `[web3pi]`  
-- **Purpose:** Settings under this section are applied to Ethereum On Raspberry Pi software.
-- **Usage:** Ethereum On Raspberry Pi services settings.
+- **Purpose:** Settings under this section are applied to Web 3 Pi software.
+- **Usage:** Web 3 Pi services settings.
   
 ```ini
 [web3pi]
@@ -79,7 +79,7 @@ bnm=true
 # quick_sync  - before run Numbus sync only head and backfill later
 # run         - do not sync before run Numbus. Just run Nimbus client
 nimbus-run-mode=full_sync
-nimbus-trusted-node-url=http://18.194.243.122:30307
+nimbus-trusted-node-url=http://nimbus.web3pi.io
 ```
 
 

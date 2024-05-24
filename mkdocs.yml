@@ -11,6 +11,7 @@ theme:
   name: material
   features:
     - navigation.tabs
+    - navigation.tabs.sticky
     - navigation.sections
 #    - navigation.path
     - toc.integrate
@@ -46,15 +47,15 @@ nav:
 
   - Getting started:
     - Quick start: 'GetStart/quick-start.md'
-    - Single device: 'GetStart/single-device.md'
-    - Pair devices: 'GetStart/pair-devices.md'
+    - Single device mode: 'GetStart/single-device.md'
+    - Paired devices mode: 'GetStart/pair-devices.md'
   - Reference:
     - 'Advanced/Networking.md'
     - UPnP: "Advanced/UPnP.md"
     - Overclocking: 'Advanced/OC.md'
-    - Monitoring: 'Monitoring/monitoring.md'
+#    - Monitoring: 'Monitoring/monitoring.md'
     - Managing Clients: 'Advanced/services.md'
- #   - Boot from external drive: 'foo.md'
+#   - Boot from external drive: 'foo.md'
     - Config.txt: 'Advanced/config_txt.md'
     - mDSN: "Advanced/mDNS.md"
   - Hardware:

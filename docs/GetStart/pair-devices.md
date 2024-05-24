@@ -101,14 +101,14 @@ To write an image on an SD card, it is recommended to use the official tool prov
 
 - [Raspberry Pi Imager](https://www.raspberrypi.com/software/)
 
-After installing it on your PC, you can download the newest Ethereum on Pi image. 
+After installing it on your PC, you can download the newest Web 3 Pi image. 
 
 You need two image files:
 
   - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.2/EthOnRpi_v0_5_2-execution.img.xz))
   - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.2/EthOnRpi_v0_5.2-consensus.img.xz))
 
-List of all images: [Ethereum on Raspberry Pi images](../downloads.md)
+List of all images: [Web 3 Pi images](../downloads.md)
 
 
 ### Writing Images
@@ -285,4 +285,4 @@ At this point, devices are configured and ready to host an **Ethereum Node**.
 
 If you have default config.txt Geth, Nimbus software will start automatically as a service.
 
-For more information on how to configure/modify elements of Ethereum On Raspberry Pi, please read the "Reference" part of this documentation.
+For more information on how to configure/modify elements of Web 3 Pi, please read the "Reference" part of this documentation.

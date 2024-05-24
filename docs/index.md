@@ -11,7 +11,7 @@ The main goal of this project is to provide a lightweight image creation suite t
 
 ARM boards are a great choice for running an Ethereum Full/Archive/Staking node. Among others:
 
-- Ethereum On Pi Plug&Play image, just flash & power up
+- Web 3 Pi Plug&Play image, just flash & power up
 - Affordable: you can run a Full Ethereum EL / Ethereum CL nodes for less than $300
 - Efficient, resources are focused on 1 task: run the node
 - Low power consumption. An ARM64 boar consumes ~10w
