@@ -74,7 +74,7 @@ Once you have all the hardware collected, you will need to unbox the Raspberry P
 Below, you can see photos of an example setup:
 
 ### Sample configuration with USB drive
-![Sample configuration with USB drive](/img/img-example-setup-USB.jpg)
+![Sample configuration with USB drive](../img/img-example-setup-USB.jpg)
 
 
 ### Sample configuration with NVMe drive
