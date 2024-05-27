@@ -26,7 +26,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
 
     Raspberry Pi 5 has a PCIe x1 connector on board so with a special adapter m.2 NVMe drive can be used.
     This option gives the maximum possible performance.
-    For more information visit: [recommended storage](./1a-recommended-storage.md)
+    For more information visit: [recommended storage](/Hardware/microSD/)
 
     > **If you use USB always choose USB 3.0 ports (blue)**
 
@@ -245,7 +245,7 @@ Check installation progress by opening
 
 When the installation is completed you will see JSON like this:
 ``` sh
-{"host_name": "eop-1", "num_cores": 4, "cpu_percent": 14.9, "mem_total": 8324055040, "mem_used": 6542295040, "mem_free": 503726080, "mem_percent": 81.8, "swap_total": 0, "swap_used": 4642058240, "swap_free": 12537806848, "swap_percent": 27.0, "disk_used": 1207331737600}
+{"host_name": "eos-1", "num_cores": 4, "cpu_percent": 14.9, "mem_total": 8324055040, "mem_used": 6542295040, "mem_free": 503726080, "mem_percent": 81.8, "swap_total": 0, "swap_used": 4642058240, "swap_free": 12537806848, "swap_percent": 27.0, "disk_used": 1207331737600}
 ```
 
 If the site is not available, **please wait and try again**.
@@ -312,5 +312,5 @@ At this point, the device is configured and ready to host an **Ethereum Node**.
 
 If you have default config.txt Geth, Nimbus and monitoring software will start automatically as a service.
 
-For more information on configuring or modifying elements of Web3Pi installation, please read the "Reference" section of this documentation.
+For more information on configuring or modifying elements of Web3Pi installation, please read the [Advance Settings](/Advanced/Networking/) section of this documentation.
 

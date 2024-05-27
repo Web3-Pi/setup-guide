@@ -1,6 +1,6 @@
-The following section describes a step-by-step process of configuring, deploying, and running a full Ethereum Node hosted on two Raspberry Pi devices.
+The following section provides a step-by-step guide for configuring, deploying, and running a full Ethereum Node hosted on two Raspberry Pi devices
 
-You can use:
+Suggested configurations:
 
 - Two Rpi 4
 - Two Rpi 5
@@ -8,24 +8,19 @@ You can use:
 
 or any other configuration including CM4.
 
-Device with execution client needs 2TB+ fast storage.
-Device with consensus client needs 256GB+ fast storage.
-
-
-## Device Setup
-The following section describes a step-by-step process of configuring, deploying, and running a single Ethereum Node hosted on two Raspberry Pi devices.
+A device with an execution client needs 2TB+ fast storage. A device with a consensus client needs 256GB+ fast storage.
 
 ⚠️ To avoid errors during the first setup, please follow the instructions precisely. ⚠️
 
-### Hardware requirements
+## Hardware requirements
 The default setup requires the following hardware components:
 
   - 2 x Raspberry Pi (8GB) starter kits
   - 2 x SSD (one for each device)
   - 1 x SD Card reader/writer
-  - 2 x Fast MicroSD Card
+  - 2 x Fast microSD Card
 
-#### Raspberry Pi
+### Raspberry Pi
 
 You can use:
 
@@ -33,9 +28,13 @@ You can use:
 - [Raspberry Pi 4](https://botland.store/raspberry-pi-4b-modules-and-kits/16579-raspberry-pi-4-model-b-wifi-dualband-bluetooth-8gb-ram-18ghz-5056561800356.html) with [Active cooling](https://botland.store/raspberry-pi-4b-cases/15106-case-justpi-for-raspberry-pi-4b-aluminum-with-dual-fan-black-lt-4b02-5903351242660.html)
 - CM4 with motherboard
 
-8GB RAM is required.
+**8GB** RAM is required.
 
-#### Storage
+### Cooling
+Active colling is required to avoid throttling and keep sufficient performance/stability on the system. Please see "Hardware" section for more information.
+
+
+### Storage
 **2 TB** fast drive is required for device running **execution** client (Geth)  
 **256 GB+** fast drive is required for device running **consensus** client (Nimbus/Lighthouse)
 
@@ -47,7 +46,7 @@ With **Raspberry Pi 5** you have three options for storage:
 
 Raspberry Pi 5 has a PCIe x1 connector on board so with a special adapter m.2 NVMe drive can be used.
 This option gives the maximum possible performance.
-For more information visit: [recommended storage](./1a-recommended-storage.md)
+For more information visit: [recommended storage](/Hardware/microSD/)
 
 With **Raspberry Pi 4** you have two options for storage:
 
@@ -56,13 +55,7 @@ With **Raspberry Pi 4** you have two options for storage:
 
 > **If you use USB always choose USB 3.0 ports (blue)**
 
-#### Power supply
-As a power supply, we recommend an [official 15W PSU](https://www.raspberrypi.com/products/type-c-power-supply/) for Raspberry Pi 4 or [official 27W PSU](https://www.raspberrypi.com/products/27w-power-supply/) for Raspberry Pi 5.
-
-#### Cooling
-Active colling is required to avoid throttling and keep sufficient performance/stability on the system. Please see "Hardware" section for more information.
-
-#### microSD Card
+### microSD Card
 
 Flashing a microSD card takes time, but it can be reduced by using a fast device. Additionally, using a fast micro SD card results in a shorter booting time. A few examples:
 
@@ -74,9 +67,16 @@ Flashing a microSD card takes time, but it can be reduced by using a fast device
     [https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards).
 
 
-## Connection Diagram
+### Power supply
+As a power supply, we recommend an [official 15W PSU](https://www.raspberrypi.com/products/type-c-power-supply/) for Raspberry Pi 4 or [official 27W PSU](https://www.raspberrypi.com/products/27w-power-supply/) for Raspberry Pi 5.
 
-Once you have all the hardware collected, you will need to unbox the Raspberry Pi device and connect it according to the specifications below:
+
+
+## Hardware Connection
+
+After gathering all the necessary hardware, unbox the Raspberry Pi devices and connect it as specified below:
+
+### Connection Diagram
 
 ![Image title](../img/img-rpi4-connection-diagram-1.png)
 
@@ -86,9 +86,9 @@ Once you have all the hardware collected, you will need to unbox the Raspberry P
 _Optimally using one network switch._
 
 
-## Photos
+### Photos
 
-Below, you can see photos of an example setup:
+Below photos illustrate example setups
 
 ![Sample configuration with USB drive](../img/img-example-setup-1.jpg)
 
@@ -112,9 +112,9 @@ List of all images: [Web 3 Pi images](../downloads.md)
 
 
 ### Writing Images
-Follow the instructions below to write images to both devices.
+Follow the instructions below to write images on a microSD card for both devices.
 
-### 1. Execution client
+#### Execution client
 - Insert a blank SD Card into a card reader and connect the reader to your PC
 - Open the Raspberry Pi Imager on your PC
 - Choose device type
@@ -130,7 +130,7 @@ Follow the instructions below to write images to both devices.
 - Do not ommit verify step
 
 !!! note "Remember the hostname" 
-    We use mDNS so after proper installation user can connect to Raspberry Pi using hostname instead of IP address.
+    We use mDNS, allowing users to connect to Raspberry Pi with the hostname instead of the IP address after proper installation.
     
     ``` sh
     eop-exec.local
@@ -141,7 +141,7 @@ An example screenshot with settings for the geth node:
 ![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-exec.png)
 
 
-### 2. Consensus client
+#### Consensus client
 
 - Insert a blank SD Card into a card reader and connect the reader to your PC
 - Open the Raspberry Pi Imager on your PC
@@ -159,21 +159,56 @@ An example screenshot with settings for the geth node:
 
 
 !!! note "Remember the hostname" 
-    We use mDNS so after proper installation user can connect to Raspberry Pi using hostname instead of IP address.
+    We use mDNS, allowing users to connect to Raspberry Pi with the hostname instead of the IP address after proper installation.
     
     ``` sh
     eop-consensus.local
     
     ```
 
-![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-consensus.png)
+![Sample Raspberry Pi Imager configuration](../img/img-raspberry-imager-example-consensus.png)
 
 _If some steps remain unclear, you can visit the [Raspberry Pi "getting started" page](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information on Imager settings and usage._
 
+
+## Initial configuration
+
+Web3Pi image uses classic /boot/firmware/config.txt as config file. This allows you to customize your setup before the first run. After writing the image to the SD card you should see a new drive in your PC. There is a config.txt file. This config is for Raspberry Pi but Web3Pi adds its own sections to it.
+
+``` sh
+# Web3Pi config
+[web3pi]
+geth=false
+nimbus=false
+lighthouse=false
+
+# Monitoring
+influxdb=false
+grafana=false
+bsm=true
+bnm=false
+```
+
+
+<!-- !!! note "More information about config file"
+    [config_txt.md](../Advanced/config_txt.md) -->
+
+Here you can choose which services will automatically start during boot.
+
+**true** = service enable  
+**false** = service disable  
+other value or no value = no change
+
+It is recommended to always leave  bsm=true
+
+!!! tip "Lighthous vs. Nimbus"
+
+    Nimbus needs less resources so it is ideal for devices like Raspberry Pi
+
+
 ## Installation
 
-The Raspberry Pi devices will be configured during the initial run, and their software will be updated. 
-After this step, devices can be used to host an **Ethereum Node**.
+The Raspberry Pi devices will be configured during the initial run, and its software will be updated. After this step, devices can be used to host an **Ethereum Node**.
 
 ### Warning
 ⚠️ **In most cases, the installation script erases the SSD content.** ⚠️
@@ -198,7 +233,7 @@ Repeat this for both devices.
 
 ### Installation verification
 
-Check when it is finished by opening:  
+Check installation progress by opening 
 
 [http://eop-exec.local:7197/node/system/status](http://eop-exec.local:7197/node/system/status)
 
@@ -266,7 +301,8 @@ sudo systemctl start w3p_geth.service
 #### Grafana Monitoring verification
 
 Grafana, InfluxDB, and Basic Node Monitor (BNM) are disabled in pair devices mode.
-After providing manual configuration they can be enabled and used. More information at - [Monitoring](../Monitoring/monitoring.md)
+After providing manual configuration they can be enabled and used. 
+<!-- More information at - [Monitoring](../Monitoring/monitoring.md) -->
 
 #### Account verification
 - SSH login into the device as _ethereum/ethereum_
@@ -276,13 +312,24 @@ After providing manual configuration they can be enabled and used. More informat
 #### Network configuration verification
 - From Raspberry Pi device run the command:
   ```bash
-  ping google.com
+  ping -c 4 google.com
+  ```
+  ```bash
+  PING google.com (142.250.186.206) 56(84) bytes of data.
+  64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=1 ttl=59 time=2.83 ms
+  64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=2 ttl=59 time=3.62 ms
+  64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=3 ttl=59 time=2.23 ms
+  64 bytes from waw07s05-in-f14.1e100.net (142.250.186.206): icmp_seq=4 ttl=59 time=3.73 ms
+ 
+  --- google.com ping statistics ---
+  4 packets transmitted, 4 received, 0% packet loss, time 3005ms
+  rtt min/avg/max/mdev = 2.229/3.102/3.734/0.614 ms
   ```
 
-### Summary
+## Summary
 
 At this point, devices are configured and ready to host an **Ethereum Node**.
 
 If you have default config.txt Geth, Nimbus software will start automatically as a service.
 
-For more information on how to configure/modify elements of Web 3 Pi, please read the "Reference" part of this documentation.
+For more information on configuring or modifying elements of Web3Pi installation, please read the [Advance Settings](/Advanced/Networking/) section of this documentation.

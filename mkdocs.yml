@@ -49,7 +49,7 @@ nav:
     - Introduction: 'GetStart/quick-start.md'
     - Single device mode: 'GetStart/single-device.md'
     - Paired devices mode: 'GetStart/pair-devices.md'
-  - Reference:
+  - Advance Settings:
     - 'Advanced/Networking.md'
     - UPnP: "Advanced/UPnP.md"
     - Overclocking: 'Advanced/OC.md'
