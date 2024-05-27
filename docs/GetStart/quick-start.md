@@ -1,5 +1,3 @@
-## About
-
 Web3Pi provides a custom image file which contains all software needed to run a full Ethereum node on Raspberry Pi single board computers.
 
 - Execution client
@@ -8,15 +6,15 @@ Web3Pi provides a custom image file which contains all software needed to run a 
 
 
 
-## Recommended configuration
+## Available configurations
 
-The Web3Pi node can be deployed in either a **[sigle device](single-device.md)** or on **[two devices](pair-devices.md)**.
+The Web3Pi node can be deployed in either a **[single device](single-device.md)** or on **[two devices](pair-devices.md)**.
 
 ### Single Device Mode
 
 Single device mode is the simplest configuration. For optimal performance, it is recommended to use a Raspberry Pi 5.
 
-**[Sigle device - Getting started](single-device.md)**
+**[Single device - Getting started](single-device.md)**
 
 ### Paired Devices Mode
 

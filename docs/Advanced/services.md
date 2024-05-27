@@ -60,34 +60,28 @@ If you need to change geth startup parameters edit this file and then restart se
 
 Lighthouse - Ethereum consensus client
 
-Maecenas ut augue ipsum. Donec eu erat et sem placerat faucibus. Vivamus quis venenatis lorem. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc hendrerit leo eget enim pharetra placerat. Vivamus blandit dapibus felis, quis ultricies enim sagittis non. Phasellus eleifend posuere sapien. In tellus lacus, fermentum sit amet egestas a, feugiat vitae sapien.
-
 ### w3p_w3p_nimbus-beacon.service
 
 Nimbus - Ethereum light weight consensus client
-
-Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Vivamus efficitur, nibh ac consectetur mollis, urna sapien ultricies nibh, sit amet posuere diam mauris vel orci. Vestibulum interdum eget diam in mattis. Curabitur vulputate massa tempus, mattis nulla ut, maximus ipsum. Sed ex mauris, ornare et libero sit amet, molestie viverra mi. Nullam et orci eget lacus molestie efficitur. Aliquam quis tempor diam.
 
 ### w3p_bsm.service
 
 Basic System Monitor
 
-Aenean egestas neque massa, ac euismod urna gravida a. Vestibulum venenatis rutrum placerat. Praesent a consectetur diam. In convallis aliquet vehicula. Ut in ipsum eu neque mollis posuere. In vitae rhoncus nisl, at maximus turpis. Nullam nisi eros, rhoncus vel semper at, tristique ac justo. Curabitur in scelerisque augue, ac accumsan mauris. In a metus sed elit rutrum consequat. Curabitur maximus bibendum ligula dignissim sollicitudin. Ut tempor eros a odio lacinia, viverra commodo libero tempor. Praesent vel diam sagittis, pellentesque lacus sed, blandit ante. Donec in elementum nibh.
+Simplistic system monitor based on `psutils` with a dedicated http endpoint.
+
 
 ### w3p_bnm.service
 
 Basic Node Monitor
 
-Pellentesque scelerisque viverra sapien. Nunc hendrerit sapien ut tellus aliquet sollicitudin. Etiam rutrum sit amet eros a auctor. Curabitur ullamcorper malesuada risus, sed gravida elit. Nulla eu venenatis nulla. Cras fermentum justo nec felis viverra pellentesque. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nulla vel arcu a lorem consectetur scelerisque in sed risus. Integer laoreet fringilla quam. Curabitur molestie tincidunt odio, non placerat quam convallis et. Duis dignissim varius metus finibus interdum. Cras a rutrum ante.
+A simple tool to monitor ETH2 nodes based on Web 3 Pi project. Monitor pushes data to the InfluxDB instance that, in turn, may be queried by Grafana to produce a visual representation of the node state. It works in parallel with basic system monitor and allows monitoring of multiple nodes (both single and dual-device setups).
 
 ### grafana.service
 
-Grafana service
+Grafana monitoring service
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin id lacinia urna, ac elementum tellus. Nullam id arcu mauris. Ut molestie, sem ut ultrices tincidunt, sem orci hendrerit urna, a sagittis nunc ex nec massa. Suspendisse egestas scelerisque viverra. Nam convallis, arcu gravida feugiat cursus, massa neque tincidunt lorem, viverra imperdiet metus dolor non lorem. Donec vitae lectus non est lobortis consectetur ut aliquam ligula. Fusce porttitor mi a tellus efficitur volutpat. Donec rutrum lorem non arcu elementum facilisis. Nam volutpat nisi nulla, sed tempor lacus faucibus eu. Aliquam hendrerit fringilla justo sed tincidunt. Suspendisse potenti.
 
 ### influxDB.service
 
 InfluxDB service
-
-Aenean mauris ante, mollis a dui quis, condimentum varius turpis. Phasellus vitae lobortis dolor, ac bibendum tortor. Aliquam erat volutpat. Nulla tincidunt lobortis mattis. Vestibulum et tempus risus. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Sed at lorem orci. Morbi non consectetur nibh, id laoreet metus. Cras quis est nunc. Nulla tristique, purus eget tempus mattis, turpis leo rhoncus ante, luctus eleifend diam justo in nulla. Aenean tempus vestibulum ex, ut dictum lorem luctus venenatis. Sed rhoncus molestie dictum. Nunc iaculis interdum molestie. Praesent efficitur tempor finibus.

@@ -4,7 +4,7 @@ site_name: Web 3 Pi
 #site_author: Robert Mordzon
 
 # Repository
-repo_name: Ethereum-On-Raspberry-Pi
+repo_name: Wem 3 Pi
 repo_url: https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi
 
 theme:
@@ -43,10 +43,10 @@ theme:
 
 nav:
   - Home:
-    - Ethereum On Raspbery Pi: 'index.md'
+    - Web 3 Pi: 'index.md'
 
-  - Getting started:
-    - Quick start: 'GetStart/quick-start.md'
+  - Setup Guide:
+    - Introduction: 'GetStart/quick-start.md'
     - Single device mode: 'GetStart/single-device.md'
     - Paired devices mode: 'GetStart/pair-devices.md'
   - Reference:
@@ -61,11 +61,11 @@ nav:
   - Hardware:
     - Storage: 'Hardware/storage.md'
     - microSD: 'Hardware/microSD.md'
-    - Backup power: 'Hardware/UPS.md'
-    - PoE: 'Hardware/PoE.md'
-    - Raspberry Pi 5: 'Hardware/pi5.md'
-    - Raspberry Pi 4: 'Hardware/pi4.md'
-    - Raspberry CM4: 'Hardware/CM4.md'
+#    - Backup power: 'Hardware/UPS.md'
+#    - PoE: 'Hardware/PoE.md'
+#    - Raspberry Pi 5: 'Hardware/pi5.md'
+#    - Raspberry Pi 4: 'Hardware/pi4.md'
+#    - Raspberry CM4: 'Hardware/CM4.md'
   - Downloads: 'downloads.md'
 
 
