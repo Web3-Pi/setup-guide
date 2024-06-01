@@ -15,10 +15,10 @@ The main goal of this project is to provide a lightweight image creation suite t
 
 Raspberry Pi devices are a great choice for running an Ethereum Full/Archive/Staking node.
 
-- Affordable: you can run a Full Ethereum EL / Ethereum CL nodes for less than $300
+- Affordable: you can run a Full Ethereum EL / Ethereum CL nodes for less than $350
 - Efficient: resources are focused on 1 task: run the node
 - Low power consumption. An ARM64 boar consumes ~10W
-- Small factor size: Great for running at home as it fits in any corner
+- Small form factor: Great for running at home as it fits in any corner
 - Great for running 24/7: Small, affordable and low power consumption
 
 ## Why Web3 Pi Images

@@ -1,5 +1,5 @@
 
-Latest images for single Raspberry Pi: [https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.2](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.5)
+Latest images for single Raspberry Pi: [https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.5](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.5)
 
 
 ## Single device  
