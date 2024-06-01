@@ -12,7 +12,7 @@ A device with an execution client needs 2TB+ fast storage. A device with a conse
 
 ⚠️ To avoid errors during the first setup, please follow the instructions precisely. ⚠️
 
-## Hardware requirements
+## Hardware Requirements
 The default setup requires the following hardware components:
 
   - 2 x Raspberry Pi (8GB) starter kits
@@ -67,7 +67,7 @@ Flashing a microSD card takes time, but it can be reduced by using a fast device
     [https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards).
 
 
-### Power supply
+### Power Supply
 As a power supply, we recommend an [official 15W PSU](https://www.raspberrypi.com/products/type-c-power-supply/) for Raspberry Pi 4 or [official 27W PSU](https://www.raspberrypi.com/products/27w-power-supply/) for Raspberry Pi 5.
 
 
@@ -105,8 +105,8 @@ After installing it on your PC, you can download the newest Web 3 Pi image.
 
 You need two image files:
 
-  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.2/EthOnRpi_v0_5_2-execution.img.xz))
-  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.2/EthOnRpi_v0_5.2-consensus.img.xz))
+  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.5/Web3Pi_v0_5.5-execution.img.xz))
+  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.5/Web3Pi_v0_5.5-consensus.img.xz))
 
 List of all images: [Web 3 Pi images](../downloads.md)
 
@@ -141,7 +141,7 @@ An example screenshot with settings for the geth node:
 ![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-exec.png)
 
 
-#### Consensus client
+#### Consensus Client
 
 - Insert a blank SD Card into a card reader and connect the reader to your PC
 - Open the Raspberry Pi Imager on your PC

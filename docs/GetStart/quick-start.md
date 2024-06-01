@@ -6,7 +6,7 @@ Web3Pi provides a custom image file which contains all software needed to run a 
 
 
 
-## Available configurations
+## Available Configurations
 
 The Web3Pi node can be deployed in either a **[single device](single-device.md)** or on **[two devices](pair-devices.md)**.
 
@@ -27,12 +27,3 @@ The following combinations are supported:
 - Any combination including Compute Module 4 (CM4)
 
 **[Two devices - Getting started](pair-devices.md)**
-
-
-## Hardware requirements
-
-- Raspberry Pi - Pi 5, Pi 4, CM4 with **8GB RAM** and active cooling
-- **2TB storage** - SSD or NVMe
-- 32GB+ microSD memory card
-- Official power supply
-

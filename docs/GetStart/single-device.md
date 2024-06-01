@@ -3,7 +3,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
 ⚠️ To avoid errors during the first setup, please follow the instructions precisely. ⚠️
 
 
-### Hardware requirements
+### Hardware Requirements
 
 === "Raspberry Pi 5"
 
@@ -41,7 +41,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
     !!! note "More information"
         [https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards).
 
-    #### Power supply
+    #### Power Supply
     As a power supply, we recommend an [official PSU 5,1V / 5A](https://botland.store/raspberry-pi-5-power-supply/23907-raspberry-pi-27w-usb-c-power-supply-official-51v-5a-psu-for-raspberry-pi-5-black-5056561803418.html) for Raspberry Pi 5.
     Raspberry Pi 5 + 2TB drive can use a significant amount of power so a sufficient power supply is important for stability.
 
@@ -78,7 +78,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
     !!! note "More information"
         [https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards](https://www.tomshardware.com/best-picks/raspberry-pi-microsd-cards).
 
-    #### Power supply
+    #### Power Supply
     As a power supply, we recommend an [official PSU 5,1V / 3A](https://botland.store/raspberry-pi-4b-power-supply/14348-power-supply-for-raspberry-pi-4-usb-c-51v-3a-original-black-644824914886.html) for Raspberry Pi 4.
     Raspberry Pi 4 + 2TB drive can use a significant amount of power so a sufficient power supply is important for stability.
 
@@ -107,7 +107,7 @@ After gathering all the necessary hardware, unbox the Raspberry Pi device and co
 
 ### Photos
 
-The following photos illustrate an example setup:
+Below photos illustrate example setups
 
 #### Sample configuration with USB drive
 ![Sample configuration with USB drive](../img/img-example-setup-USB.jpg)
@@ -163,7 +163,7 @@ An example screenshot with settings for the geth node:
 _If some steps remain unclear, you can visit the [Raspberry Pi "getting started" page](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information on Image settings and usage._
 
 
-## Initial configuration
+## Initial Configuration
 
 Web3Pi image uses classic /boot/firmware/config.txt as config file. This allows you to customize your setup before the first run. After writing the image to the SD card you should see a new drive in your PC. There is a config.txt file. This config is for Raspberry Pi but Web3Pi adds its own sections to it.
 
@@ -202,7 +202,7 @@ It is recommended to always leave  bsm=true
 
 ## Installation
 
-The Raspberry Pi device will be configured during the initial run, and their software will be updated. 
+The Raspberry Pi device will be configured during the initial run, and its software will be updated. 
 After this step, devices can be used to host an **Ethereum Node**.
 
 
@@ -238,7 +238,7 @@ After the device is powered up, it will enter the process of updating the softwa
 
 
 
-### Installation verification
+### Installation Verification
 
 Check installation progress by opening 
 [http://eop-1.local:7197/node/system/status](http://eop-1.local:7197/node/system/status)
@@ -256,7 +256,7 @@ If the site is not available, **please wait and try again**.
     mDNS should be available in less than 15 min from the start. 
 
 
-#### Grafana Monitoring verification
+#### Grafana Monitoring Verification
 
 Open Grafana dashboard: [http://eop-1.local:3000](http://eop-1.local:3000)
 
@@ -283,14 +283,14 @@ Go to `Dashboards` menu and then to `Ethereum Nodes Monitor` panel.
 
 
 
-#### Account verification
+#### Account Verification
 - SSH login into the device as _ethereum/ethereum_
 
 !!! note 
     - If the _ethereum_ user does not exist, it means that the installation failed unexpectedly (in such case, _contact the support_) 
     - By default, _ethereum_ user is forced to change the password during the first login
 
-#### Network configuration verification
+#### Network Configuration Verification
 - From Raspberry Pi device run the command:
   ```bash
   ping -c 4 google.com
