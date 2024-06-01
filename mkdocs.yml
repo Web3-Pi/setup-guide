@@ -77,10 +77,10 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi
-    - icon: fontawesome/brands/twitter
-      link: https://twitter.com/Web3Pi
+    # - icon: fontawesome/brands/twitter
+    #   link: https://twitter.com/Web3Pi
     - icon: fontawesome/brands/discord
-      link: https://www.discord.com
+      link: https://discord.com/channels/684703559954333727/1244941802709192755
 
 markdown_extensions:
   - pymdownx.highlight:
