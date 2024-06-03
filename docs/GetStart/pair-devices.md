@@ -177,6 +177,7 @@ Web3Pi image uses classic /boot/firmware/config.txt as config file. This allows 
 
 ``` sh
 # Web3Pi config
+# Web3Pi config - Execution endpoint
 [web3pi]
 geth=false
 nimbus=false
@@ -187,6 +188,20 @@ influxdb=false
 grafana=false
 bsm=true
 bnm=false
+
+#Execution endpoint address
+exec_url=http://localhost:8551
+
+[geth]
+geth_port=30303
+
+[nimbus]
+nimbus_port=9000
+
+[lighthouse]
+lighthouse_port=9000
+
+# End of Web3Pi config
 ```
 
 
@@ -216,6 +231,15 @@ The Raspberry Pi devices will be configured during the initial run, and its soft
 ### Checklist before the installation
 - Make sure that the device is configured correctly (i.e., it has a valid active cooling system installed)
 - Make sure that you use the correct SSD (Geth device: 2TB, Lighthouse device: 0.5TB)
+- Internet access is required (default DHCP)
+
+The SSD contents will not be erased if you have already configured **Web3Pi** using this SSD. However, to force the installer to erase the configured disk, connect it to any device that you can access and follow these commands:
+```bash
+cd /home/ethereum
+touch .format_me
+```
+The installer will forcefully erase the SSD if the file _.format\_me_ exists in the `/home/ethereum` directory.
+
 
 ### Installation
 - Insert the previously prepared SD card into the device

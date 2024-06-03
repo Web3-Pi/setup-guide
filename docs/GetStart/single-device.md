@@ -168,7 +168,7 @@ _If some steps remain unclear, you can visit the [Raspberry Pi "getting started"
 Web3Pi image uses classic /boot/firmware/config.txt as config file. This allows you to customize your setup before the first run. After writing the image to the SD card you should see a new drive in your PC. There is a config.txt file. This config is for Raspberry Pi but Web3Pi adds its own sections to it.
 
 ``` sh
-# Web3Pi config
+# Web3Pi config - single node
 [web3pi]
 geth=true
 nimbus=true
@@ -179,6 +179,20 @@ influxdb=true
 grafana=true
 bsm=true
 bnm=true
+
+#Execution endpoint address
+exec_url=http://localhost:8551
+
+[geth]
+geth_port=30303
+
+[nimbus]
+nimbus_port=9000
+
+[lighthouse]
+lighthouse_port=9000
+
+# End of Web3Pi config
 ```
 
 
@@ -232,9 +246,7 @@ The installer will forcefully erase the SSD if the file _.format\_me_ exists in 
 
 After the device is powered up, it will enter the process of updating the software and configuring itself to act as an **Ethereum Node**.
 
-!!! Info 
-
-    This process can take up to **15 minutes**.
+⚠️ **This process can take up to 15 minutes.** ⚠️
 
 
 
