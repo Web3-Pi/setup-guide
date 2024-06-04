@@ -18,7 +18,8 @@ Single device mode is the simplest configuration. For optimal performance, it is
 
 ### Dual-Devices Mode
 
-Paired devices mode requires additional configuration.  
+Dual-devices mode requires additional configuration, but a single device may start running low on resources for a Raspberry Pi 4. In dual-devices mode, one Raspberry Pi acts as the consensus client and the other as the execution client. The solution maintains performance and stability by splitting tasks across two devices.   
+
 The following combinations are supported:
 
 - Two Raspberry Pi 4
