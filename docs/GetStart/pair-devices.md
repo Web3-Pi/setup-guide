@@ -120,11 +120,11 @@ Follow the instructions below to write images on a microSD card for both devices
 - Choose device type
 - Choose the downloaded image for execution client as a source image
 - Choose the SD card reader as a target device
-- Required custom configuration
-  - Set hostname to _eop-exec_
-  - Enable SSH authentication
-  - Set username and password (e.g., _raspberry/raspberry_)
-  - uncheck "Eject media when finished"
+- Perform any custom configuration steps that you need
+    - Set hostname to _eop-exec_
+    - Enable SSH authentication
+    - Set username and password (e.g., _raspberry/raspberry_)
+    - uncheck "Eject media when finished"
 - Write the image to the SD card
 - Eject the card and insert it into the first device
 - Do not ommit verify step
@@ -148,11 +148,11 @@ An example screenshot with settings for the geth node:
 - Choose device type
 - Choose the downloaded image for consensus client as a source image
 - Choose the SD card reader as a target device
-- Required custom configuration
-  - Set hostname to _eop-consensus_
-  - Enable SSH authentication
-  - Set username and password (e.g., _raspberry/raspberry_)
-  - uncheck "Eject media when finished"
+- Perform any custom configuration steps that you need
+    - Set hostname to _eop-consensus_
+    - Enable SSH authentication
+    - Set username and password (e.g., _raspberry/raspberry_)
+    - uncheck "Eject media when finished"
 - Write the image to the SD card
 - Eject the card and insert it into the first device
 - Do not ommit verify step

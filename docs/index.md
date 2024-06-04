@@ -17,7 +17,7 @@ Raspberry Pi devices are a great choice for running an Ethereum Full/Archive/Sta
 
 - Affordable: you can run a Full Ethereum EL / Ethereum CL nodes for less than $350
 - Efficient: resources are focused on 1 task: run the node
-- Low power consumption. An ARM64 boar consumes ~10W
+- Low power consumption. An ARM64 board consumes ~10W
 - Small form factor: Great for running at home as it fits in any corner
 - Great for running 24/7: Small, affordable and low power consumption
 
@@ -27,7 +27,7 @@ Raspberry Pi devices are a great choice for running an Ethereum Full/Archive/Sta
 - Based on Ubuntu 24.04 LTS for ARM64
 - Automatic configuration (network, user account, etc)
 - Automatic USB disk partitioning and formatting
-- Manages and configure swap memory in order to avoid memory problems
+- Manages and configures swap memory in order to avoid memory problems
 - Automatically starts Ethereum 1.0 sync (Geth)
 - Includes an APT repository for installing and upgrading Ethereum software
 - Includes monitoring dashboards based on Grafana / InfluxDB

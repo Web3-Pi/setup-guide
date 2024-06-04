@@ -139,11 +139,11 @@ Follow the instructions below to write images on a microSD card.
 - Choose device type
 - Choose the downloaded image as a source image
 - Choose the SD card reader as a target device
-- Required custom configuration
-  - Set hostname to _eop-1_
-  - Enable SSH authentication
-  - Set username and password (e.g., _raspberry/raspberry_)
-  - Uncheck "Eject media when finished"
+- Perform any custom configuration steps that you need
+    - Set hostname to _eop-1_
+    - Enable SSH authentication
+    - Set username and password (e.g., _raspberry/raspberry_)
+    - Uncheck "Eject media when finished"
 - Write the image to the SD card
 - Eject the card and insert it into the device
 - Do not omit verify step
