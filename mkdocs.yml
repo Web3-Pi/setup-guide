@@ -47,9 +47,9 @@ nav:
 
   - Setup Guide:
     - Introduction: 'GetStart/quick-start.md'
-    - Single Device Mode: 'GetStart/single-device.md'
-    - Paired Devices Mode: 'GetStart/pair-devices.md'
-  - Advance Settings:
+    - Single-Device Mode: 'GetStart/single-device.md'
+    - Dual-Devices Mode: 'GetStart/pair-devices.md'
+  - Advanced Settings:
     - 'Advanced/Networking.md'
     - UPnP: "Advanced/UPnP.md"
     - Overclocking: 'Advanced/OC.md'

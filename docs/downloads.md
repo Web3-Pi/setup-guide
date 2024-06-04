@@ -2,13 +2,13 @@
 Latest images for single Raspberry Pi: [https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.5](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/tag/v0.5.5)
 
 
-## Single device  
+## Single-Device Mode
 
 [Web3Pi_v0_5.5-single-device.img.xz](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.5/Web3Pi_v0_5.5-single-device.img.xz)
 
-## Pair devices
+## Dual-Device Devices Mode
 
-### Execusion client image
+### Execution client image
 
 [Web3Pi_v0_5.5-execution.img.xz](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.5.5/Web3Pi_v0_5.5-execution.img.xz)
 
