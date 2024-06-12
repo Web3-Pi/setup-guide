@@ -62,7 +62,7 @@ nav:
     - Storage: 'Hardware/storage.md'
     - microSD: 'Hardware/microSD.md'
 #    - Backup power: 'Hardware/UPS.md'
-#    - PoE: 'Hardware/PoE.md'
+    - PoE Rpi 5: 'Hardware/PoERpi5.md'
 #    - Raspberry Pi 5: 'Hardware/pi5.md'
 #    - Raspberry Pi 4: 'Hardware/pi4.md'
 #    - Raspberry CM4: 'Hardware/CM4.md'
