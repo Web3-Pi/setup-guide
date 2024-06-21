@@ -105,8 +105,8 @@ After installing it on your PC, you can download the newest Web 3 Pi image.
 
 You need two image files:
 
-  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6/Web3Pi_Dual_Devices_Execusion.img.xz))
-  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6/Web3Pi_Dual_Devices_Consensus.img.xz))
+  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6.1/Web3Pi_Dual_Devices_Execusion.img.xz))
+  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.6.1/Web3Pi_Dual_Devices_Consensus.img.xz))
 
 List of all images: [Web 3 Pi images](../downloads.md)
 
