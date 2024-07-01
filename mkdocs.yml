@@ -59,8 +59,10 @@ nav:
     - Config.txt: 'Advanced/config_txt.md'
     - mDSN: "Advanced/mDNS.md"
   - Hardware:
-    - Storage: 'Hardware/storage.md'
-    - microSD: 'Hardware/microSD.md'
+    - Recommended Hardware: 'Hardware/recommendedHW.md'
+#    - Sample Setups: 'Hardware/sampleSetups.md'
+#    - Storage: 'Hardware/storage.md'
+#    - microSD: 'Hardware/microSD.md'
 #    - Backup power: 'Hardware/UPS.md'
     - PoE Rpi 5: 'Hardware/PoERpi5.md'
 #    - Raspberry Pi 5: 'Hardware/pi5.md'

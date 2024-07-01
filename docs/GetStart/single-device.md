@@ -8,9 +8,9 @@ The following section provides a step-by-step guide for configuring, deploying, 
 === "Raspberry Pi 5"
 
     - 1 x [Raspberry Pi 5 (8GB)](https://botland.store/raspberry-pi-5-modules-and-kits/23905-raspberry-pi-5-8gb-5056561803326.html) with [Active cooling](https://botland.com.pl/elementy-montazowe-raspberry-pi-5/23925-raspberry-pi-active-cooler-aktywne-chlodzenie-radiator-wentylator-do-raspberry-pi-5-5056561803357.html)
-    - 1 x 2TB SSD drive (external USB SSD or NVMe m.2 with adapter) - [recommended storage](../Hardware/storage.md)
+    - 1 x 2TB SSD drive (external USB SSD or NVMe m.2 with adapter) - [Recommended Hardware](/Hardware/recommendedHW/)
     - 1 x SD Card reader/writer 
-    - 1 x [microSD Card](../Hardware/microSD.md)
+    - 1 x [microSD Card](/Hardware/recommendedHW/#microsd-card)
     - 1 x [Power supply](https://botland.store/raspberry-pi-5-power-supply/23907-raspberry-pi-27w-usb-c-power-supply-official-51v-5a-psu-for-raspberry-pi-5-black-5056561803418.html)
 
     #### Cooling
@@ -26,7 +26,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
 
     Raspberry Pi 5 has a PCIe x1 connector on board so with a special adapter m.2 NVMe drive can be used.
     This option gives the maximum possible performance.
-    For more information visit: [recommended storage](/Hardware/microSD/)
+    For more information visit: [Recommended Hardware](/Hardware/recommendedHW/)
 
     > **If you use USB always choose USB 3.0 ports (blue)**
 
@@ -50,9 +50,9 @@ The following section provides a step-by-step guide for configuring, deploying, 
 === "Raspberry Pi 4"
 
     - 1 x [Raspberry Pi 4 (8GB)](https://botland.store/raspberry-pi-4b-modules-and-kits/16579-raspberry-pi-4-model-b-wifi-dualband-bluetooth-8gb-ram-18ghz-5056561800356.html) with [Active cooling](https://botland.store/raspberry-pi-4b-cases/15106-case-justpi-for-raspberry-pi-4b-aluminum-with-dual-fan-black-lt-4b02-5903351242660.html)
-    - 1 x 2TB SSD drive (external USB SSD or NVMe with m.2 to USB adapter) - [recommended storage](../Hardware/storage.md)
+    - 1 x 2TB SSD drive (external USB SSD or NVMe with m.2 to USB adapter) - [Recommended Hardware](/Hardware/recommendedHW/)
     - 1 x SD Card reader/writer 
-    - 1 x [microSD Card](../Hardware/microSD.md)
+    - 1 x [microSD Card](/Hardware/recommendedHW/#microsd-card)
     - 1 x [Power supply](https://botland.store/raspberry-pi-4b-power-supply/14348-power-supply-for-raspberry-pi-4-usb-c-51v-3a-original-black-644824914886.html)
 
     #### Cooling
@@ -90,9 +90,13 @@ The following section provides a step-by-step guide for configuring, deploying, 
     CM4 module needs carier board. There are many on the market. Minimum requiments are:
 
     - 1 x Raspberry Pi CM4 (8GB) with Active cooling
-    - 1 x 2TB fast storage - [recommended storage](../Hardware/storage.md)
+    - 1 x 2TB fast storage - [Recommended Hardware](/Hardware/recommendedHW/)
     - 1 x Power supply
     - 16GB+ storage for operating system (microSD or eMMC)
+
+    Installing Web3Pi on the CM4 requires more knowledge. CM4 modules come with built-in eMMC memory, and in this case, you need to use the rpiboot application before using Raspberry Pi Imager. If your module does not have built-in memory and uses an SD card, the installation process is similar to a standard Raspberry Pi.   
+    More information can be found on the manufacturer's website: [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/compute-module.html).   
+    In some cases, a bootloader update may be necessary, which is described here: [How to Update the Raspberry Pi Compute Module 4 Bootloader EEPROM](https://www.jeffgeerling.com/blog/2022/how-update-raspberry-pi-compute-module-4-bootloader-eeprom).
 
 
 

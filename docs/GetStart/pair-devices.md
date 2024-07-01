@@ -46,7 +46,7 @@ With **Raspberry Pi 5** you have three options for storage:
 
 Raspberry Pi 5 has a PCIe x1 connector on board so with a special adapter m.2 NVMe drive can be used.
 This option gives the maximum possible performance.
-For more information visit: [recommended storage](/Hardware/microSD/)
+For more information visit: [Recommended Hardware](/Hardware/recommendedHW/)
 
 With **Raspberry Pi 4** you have two options for storage:
 
