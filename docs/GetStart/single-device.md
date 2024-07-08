@@ -89,10 +89,10 @@ The following section provides a step-by-step guide for configuring, deploying, 
 
     CM4 module needs carier board. There are many on the market. Minimum requiments are:
 
-    - 1 x Raspberry Pi CM4 (8GB) with Active cooling
+    - 1 x [Raspberry Pi CM4 (8GB)](https://botland.store/raspberry-pi-cm/18211-raspberry-pi-cm4-compute-module-4-8gb-ram-32gb-emmc-wifibluetooth-cm4108032-5904422368593.html) with [Active cooling](https://botland.store/raspberry-pi-cm/21716-dedicated-all-in-one-3007-cooling-fan-for-raspberry-pi-cm4-waveshare-22096.html)
     - 1 x 2TB fast storage - [Recommended Hardware](/Hardware/recommendedHW/)
     - 1 x Power supply
-    - 16GB+ storage for operating system (microSD or eMMC)
+    - 32GB+ storage for operating system (microSD or eMMC)
 
     Installing Web3Pi on the CM4 requires more knowledge. CM4 modules come with built-in eMMC memory, and in this case, you need to use the rpiboot application before using Raspberry Pi Imager. If your module does not have built-in memory and uses an SD card, the installation process is similar to a standard Raspberry Pi.   
     More information can be found on the manufacturer's website: [Raspberry Pi Documentation](https://www.raspberrypi.com/documentation/computers/compute-module.html).   
@@ -138,7 +138,7 @@ After installing it on your PC, you can download the newest **Web3Pi** image. Th
 ### Writing Images
 Follow the instructions below to write images on a microSD card.
 
-- Insert a blank SD Card into a card reader and connect the reader to your PC
+- Insert a microSD card into a card reader and connect the reader to your PC (You may need microSD to SD adapter)
 - Open the Raspberry Pi Imager on your PC
 - Choose device type
 - Choose the downloaded image as a source image
@@ -146,11 +146,11 @@ Follow the instructions below to write images on a microSD card.
 - Perform any custom configuration steps that you need
     - Set hostname to _eop-1_
     - Enable SSH authentication
-    - Set username and password (e.g., _raspberry/raspberry_)
+    - Set username and password (e.g., _raspberry/raspberry_) (Do not change username and password)
     - Uncheck "Eject media when finished"
 - Write the image to the SD card
-- Eject the card and insert it into the device
-- Do not omit verify step
+- (optionally) Eject the card and insert it into the device
+- Do not interrupt verify step
 
 !!! note "Remember the hostname" 
     We use mDNS, allowing users to connect to Raspberry Pi with the hostname instead of the IP address after proper installation.

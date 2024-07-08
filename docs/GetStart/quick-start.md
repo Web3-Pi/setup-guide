@@ -22,8 +22,8 @@ Dual-devices mode requires additional configuration, but a single device may sta
 
 The following combinations are supported:
 
-- Two Raspberry Pi 4
 - Two Raspberry Pi 5
+- Two Raspberry Pi 4
 - One Raspberry Pi 5 and one Raspberry Pi 4
 - Any combination including Compute Module 4 (CM4)
 

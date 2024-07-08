@@ -2,8 +2,8 @@ The following section provides a step-by-step guide for configuring, deploying, 
 
 Suggested configurations:
 
-- Two Rpi 4
 - Two Rpi 5
+- Two Rpi 4
 - Rpi 5 + Rpi 4
 
 or any other configuration including CM4.
@@ -26,7 +26,7 @@ You can use:
 
 - [Raspberry Pi 5](https://botland.store/raspberry-pi-5-modules-and-kits/23905-raspberry-pi-5-8gb-5056561803326.html) with [Active cooling](https://botland.com.pl/elementy-montazowe-raspberry-pi-5/)
 - [Raspberry Pi 4](https://botland.store/raspberry-pi-4b-modules-and-kits/16579-raspberry-pi-4-model-b-wifi-dualband-bluetooth-8gb-ram-18ghz-5056561800356.html) with [Active cooling](https://botland.store/raspberry-pi-4b-cases/15106-case-justpi-for-raspberry-pi-4b-aluminum-with-dual-fan-black-lt-4b02-5903351242660.html)
-- CM4 with motherboard
+- [Raspberry Pi CM4](https://botland.store/raspberry-pi-cm/18211-raspberry-pi-cm4-compute-module-4-8gb-ram-32gb-emmc-wifibluetooth-cm4108032-5904422368593.html) with [Active cooling](https://botland.store/raspberry-pi-cm/21716-dedicated-all-in-one-3007-cooling-fan-for-raspberry-pi-cm4-waveshare-22096.html) and with motherboard
 
 **8GB** RAM is required.
 
@@ -115,7 +115,8 @@ List of all images: [Web 3 Pi images](../downloads.md)
 Follow the instructions below to write images on a microSD card for both devices.
 
 #### Execution client
-- Insert a blank SD Card into a card reader and connect the reader to your PC
+
+- Insert a microSD card into a card reader and connect the reader to your PC (You may need microSD to SD adapter)
 - Open the Raspberry Pi Imager on your PC
 - Choose device type
 - Choose the downloaded image for execution client as a source image
@@ -123,11 +124,12 @@ Follow the instructions below to write images on a microSD card for both devices
 - Perform any custom configuration steps that you need
     - Set hostname to _eop-exec_
     - Enable SSH authentication
-    - Set username and password (e.g., _raspberry/raspberry_)
-    - uncheck "Eject media when finished"
+    - Set username and password (e.g., _raspberry/raspberry_) (Do not change username and password)
+    - Uncheck "Eject media when finished"
 - Write the image to the SD card
-- Eject the card and insert it into the first device
-- Do not ommit verify step
+- (optionally) Eject the card and insert it into the device
+- Do not interrupt verify step
+
 
 !!! note "Remember the hostname" 
     We use mDNS, allowing users to connect to Raspberry Pi with the hostname instead of the IP address after proper installation.
@@ -143,19 +145,19 @@ An example screenshot with settings for the geth node:
 
 #### Consensus Client
 
-- Insert a blank SD Card into a card reader and connect the reader to your PC
+- Insert a microSD card into a card reader and connect the reader to your PC (You may need microSD to SD adapter)
 - Open the Raspberry Pi Imager on your PC
 - Choose device type
-- Choose the downloaded image for consensus client as a source image
+- Choose the downloaded image for execution client as a source image
 - Choose the SD card reader as a target device
 - Perform any custom configuration steps that you need
     - Set hostname to _eop-consensus_
     - Enable SSH authentication
-    - Set username and password (e.g., _raspberry/raspberry_)
-    - uncheck "Eject media when finished"
+    - Set username and password (e.g., _raspberry/raspberry_) (Do not change username and password)
+    - Uncheck "Eject media when finished"
 - Write the image to the SD card
-- Eject the card and insert it into the first device
-- Do not ommit verify step
+- (optionally) Eject the card and insert it into the device
+- Do not interrupt verify step
 
 
 !!! note "Remember the hostname" 
