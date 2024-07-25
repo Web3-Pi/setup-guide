@@ -75,7 +75,7 @@ plugins:
   - search
   - redirects:
       redirect_maps:
-        'LCD.md': 'https://github.com/Web3-Pi/web3-pi-dashboard'
+        'Hardware/LCD-dashboard.md': 'https://github.com/Web3-Pi/web3-pi-dashboard'
 
 extra:
   social:
