@@ -43,7 +43,7 @@ theme:
 
 nav:
   - About:
-    - Web 3 Pi: 'index.md'
+    - Web3 Pi: 'index.md'
 
   - Setup Guide:
     - Introduction: 'GetStart/quick-start.md'
@@ -58,6 +58,8 @@ nav:
 #   - Boot from external drive: 'foo.md'
     - Config.txt: 'Advanced/config_txt.md'
     - mDSN: "Advanced/mDNS.md"
+  - Usage Guides:
+      - Solo Staking with Web3 Pi: "Guides/staking.md"
   - Hardware:
     - Recommended Hardware: 'Hardware/recommendedHW.md'
 #    - Sample Setups: 'Hardware/sampleSetups.md'

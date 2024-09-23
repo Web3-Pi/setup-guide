@@ -46,13 +46,13 @@ arm_freq=800
 gpu_mem=64
 ```
 
-### Eth On Rpi extension
+### Web3 Pi extensions
 
 Web 3 Pi extends this file by adding new section:
 
 #### `[web3pi]`  
-- **Purpose:** Settings under this section are applied to Web 3 Pi software.
-- **Usage:** Web 3 Pi services settings.
+- **Purpose:** Settings under this section are applied to Web3 Pi software.
+- **Usage:** Web3 Pi services settings.
   
 ```ini
 [web3pi]
