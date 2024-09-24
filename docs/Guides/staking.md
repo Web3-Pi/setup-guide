@@ -8,15 +8,15 @@ of the Ethereum ecosystem - the layer which maintains the consensus of the block
 and therefore ensures its resilience against attacks.
 
 While helping secure the Ethereum mainnet by validating the transaction blocks, you gain
-a small fee every epoch (~6 minutes) as long as your validator is able to sign and sent the required
-attestation in time for it to be included in the chain.
+a small reward every epoch (approximately 6 minutes) as long as your validator is able to sign and 
+send the required attestation in time for it to be included in the chain.
 
-## Solo-staking on Web3 Pi 
+## Solo staking on Web3 Pi
 
 Web3 Pi provides all the necessary components required to allow you to start staking on the Ethereum
 mainnet. It runs both the execution layer client (`geth`) and the consensus layer client (`nimbus`).
 Once it's set-up and the clients are synchronized, the only remaining steps are creation of the
-staking deposit keys, depositing the Ether tokens and adding the created keys to your the consensus
+staking deposit keys, depositing the Ether tokens and adding the created keys to your consensus
 layer client.
 
 The good news is that you're not even limited to a single validator and a single 32 ETH stake. 
@@ -38,13 +38,10 @@ wallet, the tokens and your validator keys safe and secure. While following the 
 don't skip any recommended reading or cut corners when asked for actions that aim to make the
 process safe. 
 
-Moreover, we don't claim to be the source of knowledge and expertise on the topic nor do we
-intend for this guide to be exhaustive source of information.
-If you're uncertain of any aspect of running your own Ethereum node,
+Moreover, as we don't intend for this guide to be exhaustive source of information.
+If you're uncertain about any aspect of running your own Ethereum node,
 staking ether or anything else we're about to discuss, by all means, we encourage you to do 
 your own research.
-You're also free to share your newly-acquired wisdom with us if you think our guide misses some
-crucial bit of information on the topic.
 
 ### Create the deposit
 
@@ -57,7 +54,7 @@ Visit https://launchpad.ethereum.org/ and click on "Become a validator".
 #### 2. Proceed through the advisories checklist
 
 Make sure to read all the contents carefully before proceeding through each step.
-Don't skip anything unless you're perfectly sure what each step entails.
+Don't skip anything unless you're absolutely sure what each step entails.
 
 ![](../assets/staking/advisories.png "Checklist of advisories screen")
 
@@ -97,7 +94,7 @@ your stake, an attacker with malicious intent and in possession of these keys, c
 in the least cause you to lose your staking rewards, and at most, even trigger
 a complete loss of your stake through slashing.
 
-That's why, once you download and install the needed key generator, 
+That's why, once you download and install the chosen key generator tool, 
 it is recommended to run it on a machine that's disconnected from the network.
 
 Please also ensure you keep your mnemonic phrase safe and out of reach of anybody but you.
@@ -105,7 +102,7 @@ This is the only way to regenerate your validator key if it gets lost.
 
 ##### Provide the withdrawal address 
 
-We strongly recommend you to set the withdrawal key right away when generating the validator keys.
+We strongly recommend setting the withdrawal key right away when generating the validator keys.
 Although it is optional and can be performed later on, it can also be performed only once.
 Setting it at this stage ensures that even if an attacker were to take control of your validator
 keys, they will never be able to override the address to which your stake and the rewards are withdrawn.
@@ -218,7 +215,7 @@ sudo journalctl -xefu w3p_nimbus-beacon
 
 Look for lines indicating: `Loading validators` and `Local validator attached`.
 
-### Voilà!
+### That's it!
 
 That's all that you need to do to start staking on a Web3 Pi.
 
