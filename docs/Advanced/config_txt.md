@@ -48,7 +48,7 @@ gpu_mem=64
 
 ### Web3 Pi extensions
 
-Web 3 Pi extends this file by adding new section:
+Web3 Pi extends this file by adding new section:
 
 #### `[web3pi]`  
 - **Purpose:** Settings under this section are applied to Web3 Pi software.
