@@ -59,6 +59,7 @@ nav:
     - Config.txt: 'Advanced/config_txt.md'
     - mDSN: "Advanced/mDNS.md"
   - Usage Guides:
+      - Transaction Firewall: "Guides/transaction_firewall.md"
       - Solo Staking with Web3 Pi: "Guides/staking.md"
   - Hardware:
     - Recommended Hardware: 'Hardware/recommendedHW.md'
