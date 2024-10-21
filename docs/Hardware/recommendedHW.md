@@ -9,7 +9,7 @@
     Some external disks consume more power than Raspberry Pi can deliver via USB. 
     For Raspberry Pi 5 max power output of USB ports is 600mA if using a 3A supply, 1600mA if using a 5A supply. 
     You can edit /boot/firmware/config.txt and add usb_max_current_enable=1 to disable current limit.
-    This flag is enabled by default in the Web3Pi image.
+    This flag is enabled by default in the Web3 Pi image.
     Please read the documentation: [https://www.raspberrypi.com/documentation/computers/raspberry-pi.html](https://www.raspberrypi.com/documentation/computers/raspberry-pi.html)
 
 

@@ -1,5 +1,5 @@
 # Project information
-site_name: Web 3 Pi
+site_name: Web3 Pi
 site_url: https://setup-guide.web3pi.io/
 #site_author: Robert Mordzon
 
@@ -71,8 +71,8 @@ nav:
 #    - Raspberry Pi 5: 'Hardware/pi5.md'
 #    - Raspberry Pi 4: 'Hardware/pi4.md'
 #    - Raspberry CM4: 'Hardware/CM4.md'
-  - Downloads: 'downloads.md'
   - Info: 'info.md'
+  - Downloads: 'downloads.md'
 
 
 plugins:

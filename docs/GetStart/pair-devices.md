@@ -105,8 +105,8 @@ After installing it on your PC, you can download the newest Web 3 Pi image.
 
 You need two image files:
 
-  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.0/Web3Pi_Dual_Devices_Execution.img.xz))
-  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.0/Web3Pi_Dual_Devices_Consensus.img.xz))
+  - one for execution client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.1/Web3Pi_Dual_Devices_Execution.img.xz))
+  - second for consensus client ([download](https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi/releases/download/v0.7.1/Web3Pi_Dual_Devices_Consensus.img.xz))
 
 List of all images: [Web 3 Pi images](../downloads.md)
 
@@ -175,11 +175,11 @@ _If some steps remain unclear, you can visit the [Raspberry Pi "getting started"
 
 ## Initial configuration
 
-Web3Pi image uses classic /boot/firmware/config.txt as config file. This allows you to customize your setup before the first run. After writing the image to the SD card you should see a new drive in your PC. There is a config.txt file. This config is for Raspberry Pi but Web3Pi adds its own sections to it.
+Web3 Pi image uses classic /boot/firmware/config.txt as config file. This allows you to customize your setup before the first run. After writing the image to the SD card you should see a new drive in your PC. There is a config.txt file. This config is for Raspberry Pi but Web3 Pi adds its own sections to it.
 
 ``` sh
-# Web3Pi config
-# Web3Pi config - Execution endpoint
+# Web3 Pi config
+# Web3 Pi config - Execution endpoint
 [web3pi]
 geth=false
 nimbus=false
@@ -203,7 +203,7 @@ nimbus_port=9000
 [lighthouse]
 lighthouse_port=9000
 
-# End of Web3Pi config
+# End of Web3 Pi config
 ```
 
 
@@ -235,7 +235,7 @@ The Raspberry Pi devices will be configured during the initial run, and its soft
 - Make sure that you use the correct SSD (Geth device: 2TB, Lighthouse device: 0.5TB)
 - Internet access is required (default DHCP)
 
-The SSD contents will not be erased if you have already configured **Web3Pi** using this SSD. However, to force the installer to erase the configured disk, connect it to any device that you can access and follow these commands:
+The SSD contents will not be erased if you have already configured **Web3 Pi** using this SSD. However, to force the installer to erase the configured disk, connect it to any device that you can access and follow these commands:
 ```bash
 cd /home/ethereum
 touch .format_me
@@ -358,4 +358,4 @@ At this point, devices are configured and ready to host an **Ethereum Node**.
 
 If you have default config.txt Geth, Nimbus software will start automatically as a service.
 
-For more information on configuring or modifying elements of Web3Pi installation, please read the [Advance Settings](/Advanced/Networking/) section of this documentation.
+For more information on configuring or modifying elements of Web3 Pi installation, please read the [Advance Settings](/Advanced/Networking/) section of this documentation.

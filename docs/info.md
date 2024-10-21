@@ -125,7 +125,7 @@ Service name: `w3p_geth.service`
 
 ## Lighthouse
 
-Lighthouse is one of the most popular consensus clients and can be used as an alternative to Nimbus, the default consensus client in Web3Pi. However, make sure not to run both clients at the same time.
+Lighthouse is one of the most popular consensus clients and can be used as an alternative to Nimbus, the default consensus client in Web3 Pi. However, make sure not to run both clients at the same time.
 
 Default Lighthouse dir = `/mnt/storage/.lighthouse`   
 

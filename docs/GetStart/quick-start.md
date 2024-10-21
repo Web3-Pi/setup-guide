@@ -1,4 +1,4 @@
-Web3Pi provides a custom image file that contains all the software needed to run a full Ethereum node on Raspberry Pi single-board computers.
+Web3 Pi provides a custom image file that contains all the software needed to run a full Ethereum node on Raspberry Pi single-board computers.
 
 - Execution client
 - Consensus client
@@ -8,7 +8,7 @@ Web3Pi provides a custom image file that contains all the software needed to run
 
 ## Available Configurations
 
-The Web3Pi node can be deployed in either a **[single-device](single-device.md)** or on **[dual-devices](pair-devices.md)**.
+The Web3 Pi node can be deployed in either a **[single-device](single-device.md)** or on **[dual-devices](pair-devices.md)**.
 
 ### Single-Device Mode
 
