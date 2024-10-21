@@ -4,7 +4,7 @@ site_url: https://setup-guide.web3pi.io/
 #site_author: Robert Mordzon
 
 # Repository
-repo_name: Web 3 Pi
+repo_name: Web3 Pi
 repo_url: https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi
 
 theme:
@@ -118,4 +118,4 @@ markdown_extensions:
       emoji_generator: !!python/name:materialx.emoji.to_svg
 
 copyright: |
-  &copy; 2024 <a href="https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi"  target="_blank" rel="noopener">Web 3 Pi</a>
+  &copy; 2024 <a href="https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi"  target="_blank" rel="noopener">Web3 Pi</a>
