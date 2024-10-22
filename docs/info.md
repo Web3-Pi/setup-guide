@@ -22,7 +22,7 @@ To do so, in Raspberry Pi Imager, you must provide the SSID and password for you
 Although using WiFi is possible, we strongly recommend using a wired connection. Over time, WiFi may lead to issues with connection stability and bandwidth performance.
 
 !!! note "Note"
-    If you are using WiFi, do not disconnect the Ethernet cable.
+    If you are using WiFi, do not connect the Ethernet cable.
 
 
 ## Default passwords
