@@ -296,7 +296,7 @@ Copy the secret file from consensus device to the execution device:
 cd
 scp clients/secrets/jwt.hex eop-exec.local:~/clients/secrets
 ```
-4. When you encounter a similar prompt, confirm with `yes`.
+4. When you encounter a similar prompt, confirm wiriting `yes` and the press <ENTER>.
 ``` sh
 The authenticity of host 'eop-exec.local (192.168.X.X)' can't be established.
 ED25519 key fingerprint is SHA256:<<<<key>>>>>>
@@ -326,7 +326,7 @@ The consensus client starts automatically but the execution client on the second
 sudo nano /boot/firmware/config.txt
 ```
 4. Edit `geth=false` to `geth=true`
-5. Save file by pressing ctrl+x and then comfirm by presing `y` and finaly `enter` button
+5. Save the file by pressing Ctrl+X, then confirm by pressing y, and finally hit the <ENTER> button.
 6. Restart the system using command:
 ``` sh
 sudo ./scripts/reboot.sh
