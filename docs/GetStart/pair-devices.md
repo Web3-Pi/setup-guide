@@ -298,14 +298,14 @@ scp clients/secrets/jwt.hex eop-exec.local:~/clients/secrets
 ```
 4. When you encounter a similar prompt, confirm with `yes`.
 ``` sh
-The authenticity of host 'eop-01.local (192.168.X.X)' can't be established.
+The authenticity of host 'eop-exec.local (192.168.X.X)' can't be established.
 ED25519 key fingerprint is SHA256:<<<<key>>>>>>
 This key is not known by any other names.
 Are you sure you want to continue connecting (yes/no/[fingerprint])?
 ```
 5. Then you will see something similar to what is shown below.
 ``` sh
-Warning: Permanently added 'eop-01.local' (ED25519) to the list of known hosts.
+Warning: Permanently added 'eop-exec.local' (ED25519) to the list of known hosts.
 Connection closed by 192.168.X.X port 22
 scp: Connection closed
 ```
