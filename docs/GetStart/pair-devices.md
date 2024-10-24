@@ -296,6 +296,19 @@ Copy the secret file from consensus device to the execution device:
 cd
 scp clients/secrets/jwt.hex eop-exec.local:~/clients/secrets
 ```
+4. When you encounter a similar prompt, confirm with `yes`.
+``` sh
+The authenticity of host 'eop-01.local (192.168.X.X)' can't be established.
+ED25519 key fingerprint is SHA256:<<<<key>>>>>>
+This key is not known by any other names.
+Are you sure you want to continue connecting (yes/no/[fingerprint])?
+```
+5. Then you will see something similar to what is shown below.
+``` sh
+Warning: Permanently added 'eop-01.local' (ED25519) to the list of known hosts.
+Connection closed by 192.168.X.X port 22
+scp: Connection closed
+```
 
 SCP command will ask you for password (_eop-exec.local_ device). Default is "ethereum". But on first login user is forced to change it.
 
@@ -308,19 +321,24 @@ The consensus client starts automatically but the execution client on the second
 
 1. Login to _eop-exec.local_ using ssh client
 2. User: _ethereum_ Pass: _ethereum_ (password change is required at first login)
-3. Enable w3p_geth.service (auto start)
+3. Edit `config.txt` file to Geth service (auto start)
 ``` sh
-sudo systemctl enable w3p_geth.service
+sudo nano /boot/firmware/config.txt
 ```
-4. Start w3p_geth.service
+4. Edit `geth=false` to `geth=true`
+5. Save file by pressing ctrl+x and then comfirm by presing `y` and finaly `enter` button
+6. Restart the system using command:
 ``` sh
-sudo systemctl start w3p_geth.service
-```
+sudo ./scripts/reboot.sh
+```   
+
+On the next startup, Geth service should be running
+
 
 !!! tip "TIP: service monitoring"
     Service output can be monitored using command:  
     ``` sh
-    journalctl -xefu w3p_geth.service 
+    sudo journalctl -xefu w3p_geth.service 
     ```
 
 
