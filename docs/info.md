@@ -213,7 +213,7 @@ Below is a description of each script and how to execute them:
 - **`sudo ./scripts/reboot.sh`**  
   This script gracefully reboots the device. It first stops the services, giving them time to complete their tasks, and then restarts the system.
 
-- **`sudo ./scripts/format_me.sh`**  
+- **`sudo ./scripts/formatMe.sh`**  
   This script marks the mapped storage as "to be formatted" during the next installation. It’s useful when reinstalling the Web3 Pi image.
 
 - **`sudo ./scripts/versions.sh`**  

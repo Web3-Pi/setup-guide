@@ -14,7 +14,7 @@ The following section provides a step-by-step guide for configuring, deploying, 
     - 1 x [Power supply](https://botland.store/raspberry-pi-5-power-supply/23907-raspberry-pi-27w-usb-c-power-supply-official-51v-5a-psu-for-raspberry-pi-5-black-5056561803418.html)
 
     #### Cooling
-    [Active cooling](https://botland.com.pl/elementy-montazowe-raspberry-pi-5/23925-raspberry-pi-active-cooler-aktywne-chlodzenie-radiator-wentylator-do-raspberry-pi-5-5056561803357.html) is required to avoid throttling and keep sufficient performance/stability on the system.
+    [Active cooling](https://botland.com.pl/elementy-montazowe-raspberry-pi-5/23925-raspberry-pi-active-cooler-aktywne-chlodzenie-radiator-wentylator-do-raspberry-pi-5-5056561803357.html) is required to avoid throttling and keep sufficient performance/stability of the system.
 
     #### Storage
     2 TB fast drive is required. 
@@ -143,13 +143,12 @@ Follow the instructions below to write images on a microSD card.
 - Choose device type
 - Choose the downloaded image as a source image
 - Choose the SD card reader as a target device
-- Perform any custom configuration steps that you need
+- Perform any custom configuration steps that you need (Check the screenshot below)
     - Set hostname to _eop-1_
     - Enable SSH authentication
     - Set username and password (e.g., _raspberry/raspberry_) (Do not change username and password)
     - Uncheck "Eject media when finished"
 - Write the image to the SD card
-- (optionally) Eject the card and insert it into the device
 - Do not interrupt verify step
 
 !!! note "Remember the hostname" 
@@ -326,7 +325,7 @@ Go to `Dashboards` menu and then to `Ethereum Nodes Monitor` panel.
 ### Summary
 At this point, the device is configured and ready to host an **Ethereum Node**.
 
-If you have default config.txt Geth, Nimbus and monitoring software will start automatically as a service.
+If you have default config.txt, Geth, Nimbus and monitoring software will start automatically as a service.
 
 For more information on configuring or modifying elements of Web3 Pi installation, please read the [Advance Settings](/Advanced/Networking/) section of this documentation.
 
