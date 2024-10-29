@@ -57,6 +57,7 @@ You will be required to change the password to your own upon the first login.
 - 30303 (TCP/UDP) for peer-to-peer (P2P) communication.
 - 8545 (TCP) for the JSON-RPC server (HTTP).
 - 8546 (TCP) for the WebSocket server.
+- 8551 (TCP) for Engine API, enabling communication between the execution and consensus layers.
 
 ### Nimbus
 
@@ -73,7 +74,27 @@ You will be required to change the password to your own upon the first login.
 
 ### SSH
 
-- 22 (TCP) for remote login.
+- 22 (TCP) for remote SSH login.
+
+### InfluxDB
+
+- 8086 (TCP) for InfluxDB HTTP API
+
+### basic-status-http
+
+- 80 (TCP) for basic-status-http web interface (Instalation status).
+
+### basic-system-monitor
+
+- 7197 (TCP) for basic-system-monitor JSON system statistic file over HTTP.
+
+### avahi-daemon
+
+- 5353 (UDP) enables mDNS for local network discovery.
+
+
+
+
 
 
 
