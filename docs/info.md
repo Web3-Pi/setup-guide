@@ -245,3 +245,18 @@ Below is a description of each script and how to execute them:
 
 - **`sudo ./scripts/update_nimbus.sh`**  
   This script updates the Nimbus application to the latest available version. It stops the service, installs the new version, and then restarts the service.
+
+
+## CCZE
+
+From Web3 Pi image version 0.7.3, the CCZE application is installed by default. It enables automatic colorization of logs from applications like Geth, Nimbus, and others, significantly enhancing their readability.   
+   
+Below, you’ll find examples of how to use it: 
+
+``` sh
+sudo journalctl -xfu w3p_geth.service | ccze -A
+
+sudo journalctl -xfu w3p_nimbus-beacon.service | ccze -A
+
+cat /var/log/web3pi.log | ccze
+```

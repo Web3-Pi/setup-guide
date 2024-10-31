@@ -142,6 +142,9 @@ Follow the instructions below to write images on a microSD card for both devices
 An example screenshot with settings for the geth node:
 ![Sample Raspbberyy Pi Imager configuration](../img/img-raspberry-imager-example-exec.png)
 
+!!! warning "Important note" 
+    After installation, the SSH username will be **ethereum**, and the password will also be **ethereum**. All other users will be disabled.
+
 
 #### Consensus Client
 
@@ -169,6 +172,9 @@ An example screenshot with settings for the geth node:
     ```
 
 ![Sample Raspberry Pi Imager configuration](../img/img-raspberry-imager-example-consensus.png)
+
+!!! warning "Important note" 
+    After installation, the SSH username will be **ethereum**, and the password will also be **ethereum**. All other users will be disabled.
 
 _If some steps remain unclear, you can visit the [Raspberry Pi "getting started" page](https://www.raspberrypi.com/documentation/computers/getting-started.html) for more information on Imager settings and usage._
 
