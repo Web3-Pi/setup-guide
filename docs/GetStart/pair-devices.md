@@ -243,10 +243,10 @@ The Raspberry Pi devices will be configured during the initial run, and its soft
 
 The SSD contents will not be erased if you have already configured **Web3 Pi** using this SSD. However, to force the installer to erase the configured disk, connect it to any device that you can access and follow these commands:
 ```bash
-cd /home/ethereum
+cd /mnt/storage
 touch .format_me
 ```
-The installer will forcefully erase the SSD if the file _.format\_me_ exists in the `/home/ethereum` directory.
+The installer will forcefully erase the SSD if the file _.format\_me_ exists in the `/mnt/storage` directory.
 
 
 ### Installation
