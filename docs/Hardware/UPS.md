@@ -55,21 +55,23 @@ There are two primary solutions for providing backup power to Raspberry Pi:
         - Compact HAT form factor, easy to install.  
     - [More information](https://geekworm.com/products/x1200){:target="_blank"}.
 
-##### For Raspberry Pi 4:
-- **[Geekworm Raspberry Pi X728](https://geekworm.com/products/x728){:target="_blank"}**  
-    - Features:
-        - Supports three 18650 batteries.
-        - Integrated power management for safe shutdown.
-        - Output: 5V/8A.
-        - Compact design that mounts directly onto Raspberry Pi.
-    - [More information](https://geekworm.com/products/x728){:target="_blank"}.
-
 - **[Waveshare UPS Module 3S](https://www.waveshare.com/ups-module-3s.htm?sku=25603){:target="_blank"}**  
     - Features:
         - Supports three 18650 batteries.
         - Smart power management with low-battery alert.
         - Compact external unit, easy to integrate.  
     - [More information](https://www.waveshare.com/ups-module-3s.htm?sku=25603){:target="_blank"}.
+
+
+##### For Raspberry Pi 4:
+- **[Geekworm Raspberry Pi X728](https://geekworm.com/products/x728){:target="_blank"}**  
+    - Features:
+        - Supports three 18650 batteries.
+        - Integrated power management for safe shutdown.
+        - Output: 5V/6A.
+        - Compact design that mounts directly onto Raspberry Pi.
+    - [More information](https://geekworm.com/products/x728){:target="_blank"}.
+
 
 ### Installation and Setup
 
