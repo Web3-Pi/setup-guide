@@ -19,16 +19,16 @@ sudo systemctl enable|disable|start|stop|restart service_name.service
 To check service output use **journalctl**
 
 ``` sh
-journalctl -u serviceName.service -b
+sudo journalctl -u serviceName.service -b
 ```
 or continuously print new entries as they are appended to the journal
 ``` sh
-journalctl -xefu serviceName.service
+sudo journalctl -xefu serviceName.service
 ```
 
 Example:
 ``` sh
-journalctl -xefu w3p_nimbus-beacon.service
+sudo journalctl -xefu w3p_nimbus-beacon.service
 ```
 
 ## List of services
