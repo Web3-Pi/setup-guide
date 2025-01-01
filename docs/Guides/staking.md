@@ -193,8 +193,11 @@ assuming your keys have been correctly uploaded to the `validator_keys` director
 run:
 
 ```bash
-nimbus_beacon_node deposits import --data-dir=/home/ethereum/.nimbus/data/shared_mainnet_0
+nimbus_beacon_node deposits import --data-dir=/mnt/storage/.nimbus/data/shared_mainnet_0/
 ```
+
+!!! tip "Tip"
+    The default search path for validator keys is a sub-directory named 'validator_keys' in the current working directory.
 
 You will be asked for your validator key password which you set in the key generator tool and
 afterwards, you should receive a message indicating successful import of your keystore file.
