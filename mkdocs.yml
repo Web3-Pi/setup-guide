@@ -4,17 +4,24 @@ site_url: https://setup-guide.web3pi.io/
 #site_author: Robert Mordzon
 
 # Repository
-repo_name: Web3 Pi
+repo_name: Source-Code
 repo_url: https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi
 
+
+extra_css:
+  - stylesheets/extra.css
+extra_javascript:
+  - stylesheets/extra.js
+  
 theme:
   name: material
+  logo: assets/color.svg
   features:
     - navigation.tabs
     - navigation.tabs.sticky
     - navigation.sections
 #    - navigation.path
-    - toc.integrate
+#    - toc.integrate
     - navigation.top
     - search.suggest
     - search.highlight
@@ -26,16 +33,17 @@ theme:
     
   language: en
   palette:
-    - scheme: default
-      toggle:
-        icon: material/toggle-switch-off-outline 
-        name: Switch to dark mode
+      - scheme: slate 
+#    - scheme: default
+#      toggle:
+#        icon: material/toggle-switch-off-outline 
+#        name: Switch to dark mode
 #      primary: teal
 #      accent: purple 
-    - scheme: slate 
-      toggle:
-        icon: material/toggle-switch
-        name: Switch to light mode    
+#    - scheme: slate 
+#      toggle:
+#        icon: material/toggle-switch
+#        name: Switch to light mode    
 #      primary: teal
 #      accent: lime
 
@@ -85,6 +93,8 @@ extra:
   social:
     - icon: fontawesome/brands/github-alt
       link: https://github.com/Web3-Pi/Ethereum-On-Raspberry-Pi
+      type: github
+      repo: Web3-Pi/Ethereum-On-Raspberry-Pi
     # - icon: fontawesome/brands/twitter
     #   link: https://twitter.com/Web3Pi
     - icon: fontawesome/brands/discord

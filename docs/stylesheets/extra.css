@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@200;800&family=DM+Sans:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redwing:wght@500&display=swap');
+
+
+.md-header__title{
+  font-family: "Redwing", sans-serif !important;
+  font-weight: 500 !important;
+  margin-left: -5px !important; /* Przesuwa nazwę bliżej logo */
+  letter-spacing: 0.100em;
+}
+
+.md-header__button.md-logo {
+    margin-right: 5px !important; /* Dostosuj odstęp logo od nazwy */
+}
+
+/* Styl nagłówków */
+.md-typeset h1, 
+.md-typeset h2, 
+.md-typeset h3, 
+.md-typeset h4, 
+.md-typeset h5, 
+.md-typeset h6 {
+    font-family: "Outfit", sans-serif;
+    font-weight: 800; /* Extra Bold */
+    letter-spacing: 0.025em;
+}
+
+/* Styl podtytułów (opcjonalnie np. H3 lub klasa podtytułu) */
+.md-typeset h3 {
+    font-weight: 200; /* Light */
+}
+
+:root  > * {
+    --md-primary-fg-color:        #040713; /* Header backgroud*/
+    --md-default-bg-color: #040713; /* Page background */
+    --md-text-font-family: "DM Sans", sans-serif;
+    --md-typeset-font-family: "DM Sans", sans-serif;
+    --md-code-font-family: "Fira Code", monospace;
+}
+
+/* Hide forks info */
+.md-header__source .md-source__facts > :nth-child(3) {
+    display: none;
+}
+
+/* Pionowa linia w ToC */
+.md-nav--secondary {
+    position: relative;
+    border-left: 2px solid #ccc;  /* Szara pionowa linia */
+    padding-left: 15px;           /* Odsunięcie tekstu od linii */
+}
+
