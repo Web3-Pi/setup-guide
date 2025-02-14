@@ -43,11 +43,40 @@
     display: none;
 }
 
-/* Pionowa linia w ToC */
 .md-nav--secondary {
     position: relative;
-    border-left: 2px solid #ccc;  /* Szara pionowa linia */
-    padding-left: 15px;           /* Odsunięcie tekstu od linii */
+    padding-left: 15px;
+}
+
+.md-nav--secondary ul::before {
+    content: "";
+    position: absolute;
+    left: 5px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background-color: #ccc;
+    z-index: 1;
+}
+.md-nav__link--active {
+    position: relative;
+}
+
+.md-nav__link--active::after {
+    content: "";
+    position: absolute;
+    left: -23px;
+    top: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: var(--md-typeset-a-color);
+    border-radius: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    z-index: 2;
+}
+
+.md-nav ul li ul .md-nav__link--active::after {
+    left: -36px;
 }
 
 .md-tabs {
