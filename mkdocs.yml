@@ -15,6 +15,7 @@ extra_javascript:
   
 theme:
   name: material
+  custom_dir: overrides
   logo: assets/color.svg
   features:
     - navigation.tabs
@@ -79,8 +80,8 @@ nav:
 #    - Raspberry Pi 5: 'Hardware/pi5.md'
 #    - Raspberry Pi 4: 'Hardware/pi4.md'
 #    - Raspberry CM4: 'Hardware/CM4.md'
-  - Info: 'info.md'
-  - Downloads: 'downloads.md'
+#  - Info: 'info.md'
+#  - Downloads: 'downloads.md'
 
 
 plugins:

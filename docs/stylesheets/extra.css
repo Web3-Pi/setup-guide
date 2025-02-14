@@ -50,3 +50,15 @@
     padding-left: 15px;           /* Odsunięcie tekstu od linii */
 }
 
+.md-tabs {
+    width: auto;
+}
+
+.md-search {
+    margin-left: 2rem;
+}
+
+.md-search__inner {
+    width: 10rem;
+}
+
