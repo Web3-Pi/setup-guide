@@ -55,39 +55,7 @@
     top: 0;
     bottom: 0;
     width: 2px;
-    background-color: #ccc;
+    background-color: rgba(204, 204, 204, 0.2);
     z-index: 1;
-}
-.md-nav__link--active {
-    position: relative;
-}
-
-.md-nav__link--active::after {
-    content: "";
-    position: absolute;
-    left: -23px;
-    top: 50%;
-    width: 10px;
-    height: 10px;
-    background-color: var(--md-typeset-a-color);
-    border-radius: 50%;
-    transform: translateY(-50%) translateX(-50%);
-    z-index: 2;
-}
-
-.md-nav ul li ul .md-nav__link--active::after {
-    left: -37px;
-}
-
-.md-tabs {
-    width: auto;
-}
-
-.md-search {
-    margin-left: 2rem;
-}
-
-.md-search__inner {
-    width: 10rem;
 }
 
