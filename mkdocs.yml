@@ -80,6 +80,14 @@ nav:
 #    - Raspberry CM4: 'Hardware/CM4.md'
   - Info: 'info.md'
   - Downloads: 'downloads.md'
+  - Plugins:
+    - Web3 Pi Updater: 'Plugins/web3-pi-updater.md'
+    - Web3 Pi Link: 'Plugins/web3-pi-link.md'
+    - Script Runner: 'Plugins/script-runner.md'
+    - Installation Status Page: 'Plugins/installation-status.md'
+    - LCD Dashboard: 'Plugins/lcd-dashboard.md'
+    - Basic Ethereum Node Monitor: 'Plugins/basic-node-monitor.md'
+    - Basic System Monitor: 'Plugins/basic-system-monitor.md'
 
 
 plugins:
