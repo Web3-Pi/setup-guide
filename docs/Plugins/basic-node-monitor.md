@@ -10,6 +10,8 @@ To install the Basic Ethereum Node Monitor plugin, navigate to the "Web3 Pi Upda
 
 Once installed, the Basic Ethereum Node Monitor plugin will start automatically. Open Grafana in your web browser (port 3000 by default) to view the collected data.
 
+![Grafana Dashboard](../img/GrafanaPanelSynced.png)
+
 ## Support
 
 For support and further assistance, join the [Web3 Pi Discord](https://discord.gg/aDMw5zeUZ4) community.

@@ -6,6 +6,8 @@ The Web3 Pi Updater plugin provides a centralized interface for managing Web3 Pi
 
 The Web3 Pi Updater plugin is located in the Cockpit navigation menu.
 
+![Web3 Pi Updater in Cockpit](../img/updater-in-cockpit.png)
+
 ## Notes
 
 - Package installations and updates may require administrative privileges.

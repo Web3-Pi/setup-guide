@@ -1,5 +1,7 @@
 # Script Runner
 
+![List of scripts in Script Runner](../img/script-runner.png)
+
 Script Runner is a Cockpit plugin that provides a user-friendly interface for executing pre-installed scripts on your Web3 Pi. This allows for easy access to common utilities and diagnostic tools directly from the Cockpit web interface.
 
 ## Installation
@@ -9,6 +11,8 @@ The Script Runner plugin is installed via the "Web3 Pi Updater" section in the C
 ## Usage
 
 The Script Runner plugin is located in the Cockpit navigation menu. Upon opening, you will see a list of available scripts.
+
+![Script Runner in Cockpit](../img/script-runner-in-cockpit.png)
 
 ### Running a Script
 

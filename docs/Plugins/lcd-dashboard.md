@@ -1,5 +1,7 @@
 # LCD Dashboard
 
+![LCD Dashboard](https://raw.githubusercontent.com/Web3-Pi/web3-pi-dashboard/refs/heads/main/docs/img/ArgonMainImage1.jpg)
+
 The LCD Dashboard plugin provides a user-friendly interface for monitoring and managing your Web3 Pi. It displays real-time information about your Raspberry Pi's CPU, memory, disk usage, network connections and more.
 
 ## Installation

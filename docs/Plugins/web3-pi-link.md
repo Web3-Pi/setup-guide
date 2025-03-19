@@ -1,5 +1,7 @@
 # Web3 Pi Link
 
+![Browser window with "my-pi.web3pi.link" in the search bar](../img/web3pilink.png)
+
 Web3 Pi Link is a Cockpit plugin enabling secure exposure of Raspberry Pi services to the internet. It functions as a reverse proxy tunnel, eliminating the need for manual port forwarding. This document provides technical details for developers using Web3 Pi Link.
 
 ## Core Functionality
@@ -29,9 +31,15 @@ The plugin creates a reverse proxy tunnel. When a request arrives at `yourname.w
 ### Installation Steps
 
 1.  **Install via Cockpit:** Access the Cockpit web interface and navigate to the "Web3 Pi Updater" section. Search for "Web3 Pi Link" and install the plugin. Make sure to refresh the page after the installation is complete. Newer Web3 Pi versions may have this plugin already installed by default.
+
+    ![Web3 Pi Link in Cockpit](../img/link-in-cockpit.png)
+
 2.  **Configuration:** The Web3 Pi Link plugin will appear in the Cockpit navigation.
+
     - **Local Port:** Specify the TCP port on your Raspberry Pi that you want to expose (e.g., `3000`, `8545`, `9090`). This is the port your HTTP service is listening on.
     - **Subdomain:** Choose a unique subdomain name. This will be used to construct the public-facing URL (`yourname.web3pi.link`). The subdomain must be globally unique. A valid subdomain must begin with a letter or number and can contain lowercase letters, numbers, and hyphens.
+
+![Create new Link form](../img/link-screen-1.png)
 
 ## Troubleshooting and Debugging
 

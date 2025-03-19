@@ -1,5 +1,7 @@
 # Installation Status Page
 
+![Installation status page](https://raw.githubusercontent.com/Web3-Pi/installation-status/refs/heads/main/image.png)
+
 The Installation Status plugin provides a comprehensive overview of the Web3 Pi installation process. It displays the status of each installation stage as well as any errors or warnings encountered during the process.
 
 ## Installation
@@ -13,6 +15,10 @@ Once installed, the Installation Status plugin will be accessible on port 80 of 
 ## Disabling the Plugin
 
 If you no longer require the Installation Status plugin, you can disable it by stopping the `w3p_installation-status` service. To do this, navigate to the "Services" section in the Cockpit interface and stop the service.
+
+## Source Code
+
+The source code for the Installation Status plugin can be found on [GitHub](https://github.com/Web3-Pi/installation-status).
 
 ## Support
 
